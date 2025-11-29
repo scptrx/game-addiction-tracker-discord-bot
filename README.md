@@ -26,13 +26,9 @@ Make sure you have Python 3.10+ installed.
 
 Create a `.env` in the root directory and fill in:
 
-`DISCORD_TOKEN=your_bot_token` 
-`MONITORED_USERS=user_id1, user_id2`
-`TARGET_CHANNEL_ID=discord_channel_id_for_notifications`
-
-- **DISCORD_TOKEN** – your bot’s token from the Discord Developer Portal
-- **MONITORED_USERS** – IDs of users you want to track
-- **TARGET_CHANNEL_ID** – the ID of the channel where the bot will send notifications
+- `DISCORD_TOKEN=your_bot_token` - your bot’s token from the Discord Developer Portal
+- `MONITORED_USERS=user_id1, user_id2` – the ID of the user you want to track
+- `TARGET_CHANNEL_ID=discord_channel_id_for_notifications` - the ID of the channel where the bot will send notifications
 
 > How to get IDs: right-click on the user/channel → Copy ID
 
@@ -42,16 +38,16 @@ Create a `.env` in the root directory and fill in:
 
 You should see in the console:
 
-`Logged in as YourBotName Bot is online`
+`Logged in as [YourBotName]` 
+`Bot is online`
 
-The bot will also send a “Bot is now online” message in the target channel.
+The bot will also send a `Bot is now online` message in the target channel.
 
 ## Running 24/7
 
 To keep your bot online without leaving your PC on:
 
-- Use a VPS (e.g., [Oracle Cloud Free Tier](https://www.oracle.com/cloud/free?utm_source=chatgpt.com))
-- Or a specialized Discord bot host (e.g., [JustRunMy.App](https://justrunmy.app/discord-bots?utm_source=chatgpt.com))
+- Use a VPS or a specialized Discord bot host
 
 ## How to Add Your Bot to a Discord Server
 
@@ -59,10 +55,10 @@ To keep your bot online without leaving your PC on:
 
 1. **Go to the Discord Developer Portal**  
     [https://discord.com/developers/applications](https://discord.com/developers/applications)
-- Select your bot application.    
+- Create and then select your bot application.    
 - Enable Privileged Intents 
     - Go to Bot → Privileged Gateway Intents
-    - Enable **Presence Intent** and **Server Members Intent** and **Message Content Intents**
+    - Enable **Presence Intent**, **Server Members Intent** and **Message Content Intents**
 - **Generate an Invite Link**
     
     - Go to **OAuth2 → URL Generator**
