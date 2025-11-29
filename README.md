@@ -26,9 +26,9 @@ Make sure you have Python 3.10+ installed.
 
 Create a `.env` in the root directory and fill in:
 
-`DISCORD_TOKEN=your_bot_token` 
-`MONITORED_USER_ID=discord_user_id_to_track` 
-`TARGET_CHANNEL_ID=discord_channel_id_for_notifications`
+`DISCORD_TOKEN=your_bot_token
+ MONITORED_USER_ID=discord_user_id_to_track
+ TARGET_CHANNEL_ID=discord_channel_id_for_notifications`
 
 - **DISCORD_TOKEN** – your bot’s token from the Discord Developer Portal
 - **MONITORED_USER_ID** – the ID of the user you want to track
@@ -42,7 +42,8 @@ Create a `.env` in the root directory and fill in:
 
 You should see in the console:
 
-`Logged in as YourBotName Bot is online`
+`Logged in as YourBotName 
+ Bot is online`
 
 The bot will also send a “Bot is now online” message in the target channel.
 
