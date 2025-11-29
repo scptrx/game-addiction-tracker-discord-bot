@@ -27,7 +27,7 @@ Make sure you have Python 3.10+ installed.
 Create a `.env` in the root directory and fill in:
 
 - `DISCORD_TOKEN=your_bot_token` - your bot’s token from the Discord Developer Portal
-- `MONITORED_USERS=user_id1, user_id2` – the ID of the user you want to track
+- `MONITORED_USERS=user_id1, user_id2` – IDs of users you want to track
 - `TARGET_CHANNEL_ID=discord_channel_id_for_notifications` - the ID of the channel where the bot will send notifications
 
 > How to get IDs: right-click on the user/channel → Copy ID
@@ -51,9 +51,11 @@ To keep your bot online without leaving your PC on:
 
 ## How to Add Your Bot to a Discord Server
 
-0. **Add your friend(s) to a server**
+0. Have friends
 
-1. **Go to the Discord Developer Portal**  
+1. **Add your friend(s) to a server**
+
+2. **Go to the Discord Developer Portal**  
     [https://discord.com/developers/applications](https://discord.com/developers/applications)
 - Create and then select your bot application.    
 - Enable Privileged Intents 
@@ -82,3 +84,9 @@ To keep your bot online without leaving your PC on:
     - Choose the server where you have **Manage Server** permission
         
     - Authorize the bot.
+
+## Bot Commands
+
+- `!helpme` - show the list of available commands
+- `!stats` - display the last 50 recorded breaks for monitored users
+- `!records` - show the longest non-gaming session for each monitored player
