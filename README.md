@@ -1,10 +1,10 @@
 # Game Addiction Tracker Discord Bot
 
-Tired of your friend spending endless hours gaming? Now you can track exactly how long they’ve been away from the game and show them who’s really addicted! This bot monitors a user’s game activity and announces new records for the longest non-gaming time directly in your Discord server.
+Tired of your friend(s) spending endless hours gaming? Now you can track exactly how long they’ve been away from the game and show them who’s really addicted! This bot monitors a user’s game activity and announces new records for the longest non-gaming time directly in your Discord server.
 
 ## Features
 
-- Monitors when a specific user starts playing a game on Discord
+- Monitors when specific user starts playing a game on Discord
 - Tracks the longest period the user was not playing
 - Sends notifications in a specific channel when a new non-gaming record is set
 
@@ -27,7 +27,7 @@ Make sure you have Python 3.10+ installed.
 Create a `.env` in the root directory and fill in:
 
 - `DISCORD_TOKEN=your_bot_token` - your bot’s token from the Discord Developer Portal
-- `MONITORED_USER_ID=discord_user_id_to_track` – the ID of the user you want to track
+- `MONITORED_USERS=user_id1, user_id2` – the ID of the user you want to track
 - `TARGET_CHANNEL_ID=discord_channel_id_for_notifications` - the ID of the channel where the bot will send notifications
 
 > How to get IDs: right-click on the user/channel → Copy ID
@@ -50,6 +50,8 @@ To keep your bot online without leaving your PC on:
 - Use a VPS or a specialized Discord bot host
 
 ## How to Add Your Bot to a Discord Server
+
+0. **Add your friend(s) to a server**
 
 1. **Go to the Discord Developer Portal**  
     [https://discord.com/developers/applications](https://discord.com/developers/applications)
