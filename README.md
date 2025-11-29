@@ -49,8 +49,8 @@ The bot will also send a “Bot is now online” message in the target channel.
 
 To keep your bot online without leaving your PC on:
 
-- Use a VPS (e.g., [Oracle Cloud Free Tier](https://www.oracle.com/cloud/free?utm_source=chatgpt.com))
-- Or a specialized Discord bot host (e.g., [JustRunMy.App](https://justrunmy.app/discord-bots?utm_source=chatgpt.com))
+- Use a VPS 
+- Or a specialized Discord bot host
 
 ## How to Add Your Bot to a Discord Server
 
