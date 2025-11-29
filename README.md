@@ -57,7 +57,7 @@ To keep your bot online without leaving your PC on:
 
 1. **Go to the Discord Developer Portal**  
     [https://discord.com/developers/applications](https://discord.com/developers/applications)
-- Select your bot application.    
+- Create and then select your bot application.    
 - Enable Privileged Intents 
     - Go to Bot → Privileged Gateway Intents
     - Enable **Presence Intent** and **Server Members Intent** and **Message Content Intents**
