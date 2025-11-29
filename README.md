@@ -56,7 +56,7 @@ To keep your bot online without leaving your PC on:
 - Create and then select your bot application.    
 - Enable Privileged Intents 
     - Go to Bot → Privileged Gateway Intents
-    - Enable **Presence Intent** and **Server Members Intent** and **Message Content Intents**
+    - Enable **Presence Intent**, **Server Members Intent** and **Message Content Intents**
 - **Generate an Invite Link**
     
     - Go to **OAuth2 → URL Generator**
