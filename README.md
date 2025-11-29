@@ -51,7 +51,7 @@ To keep your bot online without leaving your PC on:
 
 ## How to Add Your Bot to a Discord Server
 
-0. Have friends
+0. **Have friends**
 
 1. **Add your friend(s) to a server**
 
