@@ -27,7 +27,8 @@ Make sure you have Python 3.10+ installed.
 Create a `.env` in the root directory and fill in:
 
 `DISCORD_TOKEN=your_bot_token` 
-`MONITORED_USER_ID=discord_user_id_to_track` `TARGET_CHANNEL_ID=discord_channel_id_for_notifications`
+`MONITORED_USER_ID=discord_user_id_to_track` 
+`TARGET_CHANNEL_ID=discord_channel_id_for_notifications`
 
 - **DISCORD_TOKEN** – your bot’s token from the Discord Developer Portal
 - **MONITORED_USER_ID** – the ID of the user you want to track
